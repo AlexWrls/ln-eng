@@ -1,0 +1,264 @@
+2022-11-06 15:02:40,514 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 7152 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:02:40,527 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:02:41,414 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:02:41,425 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:02:41,844 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:02:41,844 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:02:41,844 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:02:41,854 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:02:41,965 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:02:41,965 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1359 ms
+2022-11-06 15:02:42,109 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:02:42,153 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:02:42,261 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:02:42,341 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:02:42,435 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:02:42,449 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:02:42,896 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:02:42,905 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:02:43,329 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:02:43,346 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:02:43,357 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 3.286 seconds (JVM running for 4.276)
+2022-11-06 15:02:43,833 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:02:43,834 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:02:43,836 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 2 ms
+2022-11-06 15:09:38,412 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 10288 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:09:38,416 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:09:39,048 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:09:39,059 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:09:39,483 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:09:39,488 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:09:39,488 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:09:39,488 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:09:39,606 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:09:39,607 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1142 ms
+2022-11-06 15:09:39,816 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:09:39,848 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:09:39,959 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:09:40,048 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:09:40,133 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:09:40,148 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:09:40,501 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:09:40,510 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:09:40,906 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:09:40,924 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:09:40,936 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 2.894 seconds (JVM running for 3.628)
+2022-11-06 15:09:41,772 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:09:41,773 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:09:41,773 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Completed initialization in 0 ms
+2022-11-06 15:11:37,426 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 8408 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:11:37,429 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:11:38,031 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:11:38,039 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:11:38,439 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:11:38,453 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:11:38,453 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:11:38,454 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:11:38,539 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:11:38,539 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1071 ms
+2022-11-06 15:11:38,736 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:11:38,808 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:11:38,966 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:11:39,094 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:11:39,199 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:11:39,214 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:11:39,639 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:11:39,644 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:11:40,019 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:11:40,036 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:11:40,048 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 3.023 seconds (JVM running for 3.827)
+2022-11-06 15:11:40,239 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:11:40,239 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:11:40,241 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Completed initialization in 2 ms
+2022-11-06 15:12:12,819 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 11868 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:12:12,825 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:12:13,401 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:12:13,412 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:12:13,801 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:12:13,807 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:12:13,808 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:12:13,808 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:12:13,909 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:12:13,909 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1036 ms
+2022-11-06 15:12:14,042 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:12:14,075 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:12:14,174 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:12:14,240 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:12:14,319 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:12:14,340 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:12:14,712 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:12:14,719 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:12:15,088 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:12:15,104 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:12:15,112 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 2.734 seconds (JVM running for 3.646)
+2022-11-06 15:12:15,146 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:12:15,147 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:12:15,148 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 0 ms
+2022-11-06 15:13:46,932 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 5256 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:13:46,932 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:13:47,632 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:13:47,654 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:13:48,080 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:13:48,090 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:13:48,090 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:13:48,090 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:13:48,179 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:13:48,179 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1206 ms
+2022-11-06 15:13:48,340 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:13:48,372 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:13:48,491 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:13:48,621 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:13:48,794 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:13:48,825 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:13:49,428 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:13:49,436 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:13:49,863 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:13:49,887 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:13:49,902 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 3.38 seconds (JVM running for 4.66)
+2022-11-06 15:13:49,930 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:13:49,930 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:13:49,932 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 0 ms
+2022-11-06 15:14:50,191 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 10960 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:14:50,191 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:14:50,971 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:14:50,983 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:14:51,341 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:14:51,351 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:14:51,351 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:14:51,351 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:14:51,431 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:14:51,431 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1200 ms
+2022-11-06 15:14:51,581 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:14:51,612 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:14:51,721 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:14:51,786 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:14:51,871 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:14:51,886 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:14:52,364 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:14:52,371 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:14:52,796 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:14:52,819 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:14:52,836 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 3.02 seconds (JVM running for 3.871)
+2022-11-06 15:14:53,216 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:14:53,217 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:14:53,218 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-11-06 15:20:52,024 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 7560 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:20:52,034 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:20:52,675 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:20:52,686 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:20:53,073 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:20:53,080 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:20:53,081 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:20:53,081 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:20:53,159 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:20:53,159 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1095 ms
+2022-11-06 15:20:53,283 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:20:53,325 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:20:53,445 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:20:53,552 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:20:53,633 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:20:53,654 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:20:54,027 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:20:54,035 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:20:54,398 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:20:54,404 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:20:54,425 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 2.758 seconds (JVM running for 3.755)
+2022-11-06 15:20:54,492 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:20:54,492 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:20:54,493 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-11-06 15:24:02,526 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 316 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:24:02,536 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:24:03,066 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:24:03,081 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:24:03,446 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:24:03,456 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:24:03,456 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:24:03,456 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:24:03,566 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:24:03,566 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1000 ms
+2022-11-06 15:24:03,696 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:24:03,726 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:24:03,826 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:24:03,896 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:24:03,986 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:24:03,996 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:24:04,439 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:24:04,447 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:24:04,908 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:24:04,944 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:24:04,959 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 2.765 seconds (JVM running for 3.473)
+2022-11-06 15:24:07,584 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:24:07,586 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:24:07,588 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 2 ms
+2022-11-06 15:25:04,321 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 9452 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:25:04,321 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:25:04,907 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:25:04,917 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:25:05,312 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:25:05,317 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:25:05,317 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:25:05,317 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:25:05,422 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:25:05,422 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1061 ms
+2022-11-06 15:25:05,547 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:25:05,579 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:25:05,687 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:25:05,776 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:25:05,858 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:25:05,867 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:25:06,297 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:25:06,307 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:25:06,673 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:25:06,689 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:25:06,702 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 2.755 seconds (JVM running for 3.507)
+2022-11-06 15:25:10,557 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:25:10,557 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:25:10,557 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 0 ms
+2022-11-06 15:25:13,483 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 5464 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:25:13,487 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:25:14,068 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:25:14,085 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:25:14,578 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:25:14,592 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:25:14,593 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:25:14,593 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:25:14,698 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:25:14,698 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1171 ms
+2022-11-06 15:25:14,836 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:25:14,867 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:25:14,967 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:25:15,037 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:25:15,117 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:25:15,137 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:25:15,613 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:25:15,621 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:25:16,021 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:25:16,038 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:25:16,049 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 2.977 seconds (JVM running for 4.059)
+2022-11-06 15:25:16,652 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:25:16,653 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:25:16,655 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-11-06 15:35:11,846 INFO org.springframework.boot.StartupInfoLogger [main] Starting EnglishApplication using Java 11.0.16 on DESKTOP-EMO9IPB with PID 11860 (D:\Java\english\build\classes\java\main started by WRLS in D:\Java\english)
+2022-11-06 15:35:11,849 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-06 15:35:12,412 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-06 15:35:12,422 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-11-06 15:35:12,788 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-11-06 15:35:12,796 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:35:12,796 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-06 15:35:12,796 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-06 15:35:12,874 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-06 15:35:12,874 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 988 ms
+2022-11-06 15:35:12,993 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-06 15:35:13,024 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-06 15:35:13,121 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-06 15:35:13,187 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-06 15:35:13,273 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-06 15:35:13,288 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-06 15:35:13,664 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-06 15:35:13,674 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-06 15:35:14,038 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-11-06 15:35:14,057 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-11-06 15:35:14,068 INFO org.springframework.boot.StartupInfoLogger [main] Started EnglishApplication in 2.583 seconds (JVM running for 3.357)
+2022-11-06 15:35:22,287 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-06 15:35:22,288 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-06 15:35:22,288 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Completed initialization in 0 ms
