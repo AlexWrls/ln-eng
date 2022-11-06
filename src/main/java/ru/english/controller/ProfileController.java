@@ -34,25 +34,25 @@ public class ProfileController {
     }
 
 
-    @GetMapping("/parse")
-    public String parse() {
-        try {
-            List<Words> wordsList = new ArrayList<>();
-            Document doc = Jsoup.connect("https://studynow.ru/dicta/allwords").get();
-            Element element = doc.getElementById("wordlist");
-            for (int i = 0; i < 5000; i++) {
-                Words word = new Words();
-                Node w = element.child(0).child(i).child(1).childNode(0);
-                word.setWord(w.toString());
-                Node t = element.child(0).child(i).child(2).childNode(0);
-                word.setTranslate(t.toString());
-                wordsList.add(word);
-            }
-            mainService.insertListWord(wordsList);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "redirect:/main";
-    }
+//    @GetMapping("/parse")
+//    public String parse() {
+//        try {
+//            List<Words> wordsList = new ArrayList<>();
+//            Document doc = Jsoup.connect("https://studynow.ru/dicta/allwords").get();
+//            Element element = doc.getElementById("wordlist");
+//            for (int i = 0; i < 5000; i++) {
+//                Words word = new Words();
+//                Node w = element.child(0).child(i).child(1).childNode(0);
+//                word.setWord(w.toString());
+//                Node t = element.child(0).child(i).child(2).childNode(0);
+//                word.setTranslate(t.toString());
+//                wordsList.add(word);
+//            }
+//            mainService.insertListWord(wordsList);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return "redirect:/main";
+//    }
 
 }
