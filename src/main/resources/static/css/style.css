@@ -167,4 +167,12 @@ p {
     .card-header {
         font-size: 2em;
     }
+
+    #score-value {
+        font-size: 2em;
+    }
+
+    .modal-title {
+        font-size: 2em;
+    }
 }
