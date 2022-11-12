@@ -1,4 +1,3 @@
-
 create table public.words
 (
     id        BIGSERIAL    not null primary key,
@@ -6,22 +5,28 @@ create table public.words
     translate varchar(100) not null
 );
 
-
--- ALTER TABLE public.profile
---     OWNER TO abnkxgdxakdjgr;
--- ALTER TABLE public.role
---     OWNER TO abnkxgdxakdjgr;
--- ALTER TABLE public.words
---     OWNER TO abnkxgdxakdjgr;
--- ALTER TABLE public.result_game
---     OWNER TO abnkxgdxakdjgr;
-
--- ================== INSERT ==========================
-
--- insert into public.profile( email, password)
--- VALUES ( 'bot-1', '$2a$10$HZLjPcuBehaPThFuBktD8u.g7qNKvrZ/3z7Rwn3u2ee3twwduJgMq');
-
---
--- insert into public.role(id_profile, role)
--- VALUES (1, 'USER');
+-- ================== DELETE STOP WORD ==========================
+delete from words
+where word like'%fuck%'
+   or word like'crap%'
+   or word like'%whore%'
+   or word like'%slut%'
+   or word like'%douchebag%'
+   or word like'%gay%'
+   or word like'%faggot%'
+   or word like'%homo%'
+   or word like'%bastard%'
+   or word like'%asshole%'
+   or word like'%jerk%'
+   or word like'%prick%'
+   or word like'%dick%'
+   or word like'%cunt%'
+   or word like'%pussy%'
+   or word like'%sucker%'
+   or word like'%nerd%'
+   or word like'%dumb%'
+   or word like'%fool%'
+   or word like'%stupid%'
+   or word like'%retard%'
+   or word like'%bitch%';
 
