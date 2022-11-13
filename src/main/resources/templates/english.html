@@ -79,6 +79,9 @@
                     button.disabled = null;
                     playAudio('./sound/endM.mp3')
                     clearInterval(intervalId)
+                    for (let i = 0; i <= cardId; i++) {
+                        document.getElementById(i).style.display = 'flex'
+                    }
                 }
             }, 1000);
 
@@ -160,7 +163,12 @@
         cardHeader.appendChild(createWord);
         card.appendChild(cardHeader);
         card.appendChild(cardBody);
-        root.appendChild(card);
+        setTimeout(() => {
+            root.appendChild(card)
+            if (cardId>0){
+                document.getElementById(cardId-1).style.display = 'none';
+            }
+        }, 1000);
 
         return w
     }
@@ -184,6 +192,14 @@
     function scrollDown() {
         const element = document.getElementById('down');
         element.scrollIntoView();
+    }
+
+    function sleep(milliseconds) {
+        const date = Date.now();
+        let currentDate = null;
+        do {
+            currentDate = Date.now();
+        } while (currentDate - date < milliseconds);
     }
 
 </script>
