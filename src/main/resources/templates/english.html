@@ -31,6 +31,7 @@
         </div>
     </div>
     <div id="root"/>
+    <div style="margin-bottom:10px;opacity: .5"  id="img"/>
 
 </div>
 <div id="down"/>
@@ -100,9 +101,11 @@
             if (t === ans.id) {
                 score.innerText = Math.round(score.innerText) + 1
                 card.style.background = '#00800087'
+                document.getElementById('img').innerHTML += '<img src="../static/img/true.png" width="20" alt="img">'
             } else {
                 score.innerText = Math.round(score.innerText) - 1
                 card.style.background = '#a532329e'
+                document.getElementById('img').innerHTML += '<img src="../static/img/false.png" width="20" alt="img">'
             }
             cardId++
             scoreLevel.value = score.innerText;
